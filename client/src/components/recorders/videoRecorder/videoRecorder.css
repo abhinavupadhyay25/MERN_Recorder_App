@@ -1,0 +1,42 @@
+.videoScreenRecorder {
+  height: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.screenTitle {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.videoScreen {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.startRecordingButtton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.stopRecordingButtton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f01d00;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
